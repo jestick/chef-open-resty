@@ -1,2 +1,4 @@
-# chef-open-resty
-A chef recipe to create openresty-nginx server.
+# open-resty
+
+TODO: Enter the cookbook description here.
+

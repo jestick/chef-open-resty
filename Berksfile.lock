@@ -1,0 +1,7 @@
+DEPENDENCIES
+  open-resty
+    path: .
+    metadata: true
+
+GRAPH
+  open-resty (0.1.0)
