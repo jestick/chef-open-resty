@@ -23,8 +23,10 @@ bash "compile_openresty_source" do
   code <<-EOH
     tar zxf openresty-1.9.7.4.tar.gz
     cd openresty-1.9.7.4
-    ./configure
-    make && make install
+    ./configure \
+    --with-http_stub_status_module
+    make
+    make install
   EOH
 end
 
