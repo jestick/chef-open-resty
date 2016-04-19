@@ -1,6 +1,8 @@
 ---
 driver:
   name: vagrant
+  network:
+   - ["public_network"]
 
 provisioner:
   name: chef_zero
